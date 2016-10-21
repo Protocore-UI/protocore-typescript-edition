@@ -1,6 +1,6 @@
-import BaseView from './_baseView.ts';
+import BaseView from './_baseView';
 
-class HomeView extends BaseView {
+export default class HomeView extends BaseView {
   constructor(params: any) {
     super(params);
     console.log('LOG: Initialize HomeView');
@@ -17,6 +17,4 @@ class HomeView extends BaseView {
   eventsHash() {
     console.log("LOG: HomeView Events Hash");
   }
-}
-
-export default HomeView;
+};

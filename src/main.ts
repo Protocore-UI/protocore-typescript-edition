@@ -1,3 +1,3 @@
-// import './stylesheets/less/_consolidate.less';
+import './stylesheets/less/_consolidate.less';
 
-import './apps/router/routes.ts';
+import './apps/router/routes';

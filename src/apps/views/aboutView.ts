@@ -1,6 +1,6 @@
-import BaseView from './_baseView.ts';
+import BaseView from './_baseView';
 
-class AboutView extends BaseView {
+export default class AboutView extends BaseView {
   constructor(params: any) {
     super(params);
     console.log('LOG: Initialize AboutView');
@@ -18,5 +18,3 @@ class AboutView extends BaseView {
     console.log("LOG: AboutView Events Hash");
   }
 };
-
-export default AboutView;

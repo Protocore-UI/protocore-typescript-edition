@@ -1,16 +1,16 @@
-import signals from "signals";
-import hasher from "hasher";
-import crossroads from "crossroads";
+import * as signals from "signals";
+import * as hasher from "hasher";
+import * as crossroads from "crossroads";
 
-import HomeView from '../views/homeView.ts';
+import HomeView from '../views/homeView';
 import HomeTemplate from '../templates/homeTpl.handlebars';
 
-import AboutView from '../views/aboutView.ts';
+import AboutView from '../views/aboutView';
 import AboutTemplate from '../templates/aboutTpl.handlebars';
 
 let router = crossroads.create();
 
-let parseHash = (newHash) => {
+let parseHash = (newHash: any) => {
 	router.parse(newHash);
 };
 
