@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/Protocore-UI/protocore-typescript-edition#readme",
   "dependencies": {
+    "@types/crossroads": "0.0.29",
+    "@types/handlebars": "^4.0.31",
+    "@types/hasher": "0.0.28",
+    "@types/jquery": "^2.0.33",
+    "@types/signals": "0.0.17",
     "body-parser": "~1.14.2",
     "cookie-parser": "~1.3.2",
     "crossroads": "^0.12.2",

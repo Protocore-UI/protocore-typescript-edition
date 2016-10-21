@@ -31,16 +31,16 @@ var config = {
       test: /\.(jpg|jpeg|png|gif|svg)$/i,
       loader: 'file'
     }, {
-      test: /\.handlebars$/i,
+      test: /\.handlebars?$/i,
       loader: 'handlebars-loader'
     }, {
       test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: "file"
     }, {
-      test: /\.less$/,
+      test: /\.less?$/,
       loader: 'style-loader!css-loader!less-loader'
     }, {
-      test: /\.css$/,
+      test: /\.css?$/,
       loader: 'style-loader!css-loader'
     }, {
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,

@@ -1,6 +1,6 @@
-import $ from "jquery";
+import * as $ from "jquery";
 
-class BaseView {
+export default class BaseView {
   el: string;
 
   template: string;
@@ -18,5 +18,3 @@ class BaseView {
     $(this.el).html(this.template);
   }
 };
-
-export default BaseView;
