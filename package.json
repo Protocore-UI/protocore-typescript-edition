@@ -1,6 +1,6 @@
 {
   "name": "protocore-typescript-edition",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Protocore-typescript-edition is special Typescript implementation edition of Protocore project.",
   "scripts": {
     "start": "node server.js",
