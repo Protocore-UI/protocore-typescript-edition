@@ -31,7 +31,7 @@ var config = {
       test: /\.(jpg|jpeg|png|gif|svg)$/i,
       loader: 'file'
     }, {
-      test: /\.handlebars?$/i,
+      test: /\.handlebars$/,
       loader: 'handlebars-loader'
     }, {
       test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
